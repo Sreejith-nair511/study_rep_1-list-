@@ -1,0 +1,24 @@
+#to update a list 
+cars=['lambo','ferrai','buggati','mustang']
+cars[2]='honda'
+print(cars)#the list has been updated on index 2
+cars[2]=cars[3]
+print(cars)#mustang is repeated twice now 
+cars[-1]='rimac'
+print(cars)#the last item is changed with the new addtion 
+
+#the list values can be concatinated like strings
+#example
+example=[1,2,3,4]+['x','v','z','a']#list concatenation 
+print(example)
+#list multiplication works same as string multiplication 
+example=[1,2,3,4]*3
+print(example)#the list has been replicated 3 times 
+
+#usage off del statement to delete the value in list 
+cars=['lambo','ferrai','buggati','mustang']
+del cars[1]
+print(cars)#deleted ferrari
+del cars[2]
+print(cars)
+print(cars[3])

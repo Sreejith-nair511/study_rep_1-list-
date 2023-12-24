@@ -1,0 +1,15 @@
+#slicing is a method of retrieving multiple values from the list[]
+#its syntax includes listname with semicolon
+#example as follows
+cars=['lambo','ferrai','buggati','mustang']
+print(cars[0:4])
+#the entire list is printed ,first value is thr intail point,second value end ,which will be n-1
+#another example
+print(cars[0:3])#printed from 0 to 2
+#if we just use :then we get the enitre list
+print(cars[:])#enitre list given 
+#we  can also use just one value to get value 
+print(cars[:3])
+print(cars[1:])
+#ro find the length of list ,we use len()
+print(len(cars))#output is 4

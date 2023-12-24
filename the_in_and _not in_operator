@@ -1,0 +1,35 @@
+#in and not in are used to check if the item is in list and if its not 
+#sort of a boolean value checker fro the value in the item 
+#learning the opertor thru example 
+
+cars=['lambo','ferrai','buggati','mustang']
+print('lambo' in cars)
+#out put will be True
+
+print('bentley' in cars)#out put  will be false 
+
+#whereas 
+
+print('bentley' not in cars)#output being true 
+#whereas
+print('lambo' not in cars)
+#output is false 
+#multple assignment trick 
+cars=['lambo','ferrai','buggati','mustang']
+italian=cars[0:3]
+american=cars[3]
+print(italian)
+print(american)
+#output itialian=lambo,ferrai,buggati and american mustang
+
+#code with in and not in 
+
+pets=['tommy','derek','forno','gojo']
+name=input('enter petname')
+if name in pets:
+    print('petname  present',name)
+else:
+    print(name,'is  present')#this will give output for the value in the list 
+#THEREseveral operator we need tobe aware of 
+    #example==+=,-=,*=,/=,%=
+

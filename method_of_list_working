@@ -1,0 +1,43 @@
+
+import random
+cars=['lambo','ferrai','buggati','mustang']
+#usage of random.choice and random.shuffle
+print(random.choice(cars))
+(random.shuffle(cars))
+print(cars)#the order is shuffled and everything ,the value changed and everything 
+
+#method of list() working 
+#first method is index()
+cars=['lambo','ferrai','buggati','mustang']
+print(cars.index('lambo'))
+print(cars.index('buggati'))#the index will be the output
+
+#second method 
+#append and insert
+cars=['lambo','ferrai','buggati','mustang']
+print(cars.append('pagani'))
+print(cars.insert(1,'dodge'))
+print(cars)
+#new list[] includes the new additon 
+
+#third method
+#remove() to remove values
+cars=['lambo','ferrai','buggati','mustang']
+(cars.remove('lambo'))
+print(cars)
+
+#fourth method 
+#sort() to sort the list()
+cars=['lambo','ferrai','buggati','mustang']
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+#list follow ASCIIphalbetal (uppercase) preference 
+
+#5th reverse()
+#it will reverse the list()
+cars=['lambo','ferrai','buggati','mustang']
+cars.reverse()
+
+print(cars)#it will reverse the list value

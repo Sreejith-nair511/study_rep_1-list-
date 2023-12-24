@@ -1,0 +1,31 @@
+#List is a vlaue which holds multiple items in an ordered sequence 
+#the term list value includes the entire list and just the variable inside 
+#representation ==[]
+
+#an example list:
+
+cars=['lambo','ferrai','buggati','mustang']
+print(cars)
+
+
+#cars=[] will be an empty list,like empty string ''
+#index==the position of variable inside the list 
+
+print(cars[0])
+print(cars[1])
+print(cars[2])
+print(cars[3])
+#index starts from 0 to n-1,where n will be the list number 
+#method of adding string with list index 
+print('hello'+cars[0])
+#if index not present it will  show indexerror
+#multpile index formation can be done ,eg
+
+cars=['lambo','ferrai','buggati','mustang'],['v8','v12','v10','v6']
+print(cars[1][3])
+#it will print v6 fron the second index reference 
+#negative indexes are also used 
+cars=['lambo','ferrai','buggati','mustang']
+print(cars[-4])
+#it will print lambo  
+#the negative index is reversed in the list 

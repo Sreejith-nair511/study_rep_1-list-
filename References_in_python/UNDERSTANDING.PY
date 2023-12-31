@@ -11,3 +11,11 @@ GMC='cadillac'
 #an important thing to keep in mind ,python will create reference for muteable data type only 
 #for unmuteable data type,it will directly store data towards it 
 print(id('chiron'))#address in memory displayed  
+#copy() and deepcopy() function to actually copy the muteable data type
+import copy
+cars=['subaru','alfa ro','husqverna'] 
+elec_cars=copy.copy(cars)
+cars[2]='tesla'
+print(cars)
+print(elec_cars)
+#deepcopy() for inner list 

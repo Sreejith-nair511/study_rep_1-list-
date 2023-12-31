@@ -1,0 +1,24 @@
+#a muteable data type which uses unordered sequences 
+#it has a key value system in which the index is key and it has a value associated with it 
+#an example
+cars={'german':'bmw','italian':'lambo','british':'aston martin'}
+#here the keys will be the index 
+print(cars['german'])
+#output is the values associated with the key german 
+print(cars.values())#output is the values 
+print(cars.keys())#output id the keys of the dictionary
+print(cars.items())#the entire dictionaries 
+print(cars.keys())
+print(cars['italian'])
+
+cars={'german':'bmw','italian':'lambo','british':'aston martin'}
+#print(cars['indian'])#keyerror
+#print(cars.get('inidan',0))#the output is the fallback value 0
+cars={'german':'bmw','italian':'lambo','british':'aston martin'}
+print(cars.setdefault('indian','mahindra'))#the dictionary is updated 
+print(cars)
+
+
+
+
+
